@@ -1,9 +1,14 @@
-import React from 'react'
+import './Card.css';
+import React from 'react';
+
 
 const Card = () => {
   return (
-    <div>Hola, soy un estudiante!!   </div>
+    <div className='card'>
+      Hola, soy un estudiante!!   
+    </div>
   )
 }
 
 export default Card
+
