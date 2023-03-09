@@ -1,14 +1,39 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  text-align: start;
+  margin: 0% 60% 0% 5%;
 }
 
 .App h1 {
-  color: rgb(255, 153, 0);
+  color: rgb(0, 0, 0);
+}
+
+form {
+  background-color: rgb(240, 238, 238);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+}
+form input {
+  width: 40%;
+  height: 25px;
+  margin: 15px;
+  border: 0.5px black solid ;
+  border-radius: 5px;
+}
+form button {
+  background-color: rgb(106, 106, 207);
+  color: white; 
+  border: none;
+  border-radius: 15px;
+  padding: 6px 2px;
+  width: 40%;
+  margin: 15px;
+}
+
+.error {
+  color: rgb(218, 53, 53);
+  font-weight: bold;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,7 +1,16 @@
 .card {
-    background-color: rgb(230, 150, 75);
-    border: black solid;
-    width: 10%;
-    margin: 1%;
+    border: 0.5px solid black ;
+    border-radius: 5px;
+    width: 60%;
+    margin: 2%;
+}
+
+.card p {
+    font-weight: bold;
+    margin: 15px;
+}
+
+.card p span {
+    color: rgb(47, 228, 47);
 }
 
